@@ -26,9 +26,9 @@ stuLL_t* createNodeLinkedList(stuRec_t stdata)
 			pHEAD->data.gName, stdata.gName;
 			pHEAD->data.grade = stdata.grade;
 			pHEAD->pNext = NULL; 
-	
 	}
-
+	return pHead;
+}
 /*
  * function adds a node to an existing list
  */
