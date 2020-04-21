@@ -21,7 +21,7 @@
  */
 int comparo_fName(const void *pA, const void *pB)
 {   
-	stuDA_t student_A = *((stuDA_t*) pA);
+	stuDA_t student_A = *((stuDA_t*) pA);// extracting the records of the students
 	stuDA_t student_B = *((stuDA_t*) pB);
 
 	// get student given names
@@ -56,7 +56,7 @@ int comparo_gName(const void *pA, const void *pB)
  */
 int comparo_grade(const void *pA, const void *pB)
 {
-	stuDA_t student_A = *((stuDA_t*) pA);
+	stuDA_t student_A = *((stuDA_t*) pA);// taking records of students
 	stuDA_t student_B = *((stuDA_t*) pB);
 
 	// get student given names
